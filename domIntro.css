@@ -1,0 +1,77 @@
+html {
+  font-family: 'Asap', sans-serif;
+  background-color: #f1f1f1;
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+}
+
+.rotate {
+  rotate: 180deg;
+}
+
+#heading {
+  color: blueviolet;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#human-img {
+  position: relative;
+  justify-content: center;
+  width: 250px;
+  scale: 1;
+  transition: all 1s ease-in-out;
+  padding: 10px;
+}
+
+#human-img:hover {
+  scale: 1.1;
+  transition: all 1s ease-in-out;
+}
+
+.special {
+  color: teal;
+  border: 1px solid teal;
+  font-size: 15px;
+}
+
+#text {
+  font-size: 3rem;
+  width: 300px;
+}
+
+#password {
+  font-weight: bolder;
+}
+
+.btn-container {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+#range {
+  width: 100%;
+}
+
+#todos {
+  font-size: 2rem;
+  color: olive;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #1a1a1a;
+  opacity: 0.5;
+}
+
+.bg-image {
+  background-image: url(https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
+}

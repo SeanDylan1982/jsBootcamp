@@ -1,0 +1,9 @@
+.win {
+  background-color: #2bff0050;
+  width: 100%;
+}
+
+.lose {
+  background-color: #ff000050;
+  width: 100%;
+}
