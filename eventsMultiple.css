@@ -1,0 +1,32 @@
+button {
+  position: absolute;
+  top: 350px;
+  left: 250px;
+}
+
+.boxes {
+  position: absolute;
+  display: flex;
+  width: calc(100vw - 60px);
+  height: calc(100vh - 60px);
+  margin: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#username,
+#add-item,
+h2,
+ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

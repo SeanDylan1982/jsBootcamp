@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jsBootcamp</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1 id="heading">jsBootcamp</h1>
+  <div class="app" id="app">
+    <form action="#" method="get" name="form" id="form">
+      <label for="name" id="name-label">Name:<input type="text" name="name" id="name-input" placeholder="Name..." autofocus autocomplete="name" required /></label>
+      <label for="terms" id="checkbox-label">I agree to the t's and c's<input type="checkbox" name="terms" id="terms" required></label>
+      <label for="options">Options
+        <select name="options" id="options" required>
+          <option value="please-select" id="select">Please select...</option>
+          <option value="option1" id="option1">Option 1</option>
+          <option value="option2" id="option2">Option 2</option>
+          <option value="option3" id="option3">Option 3</option>
+        </select>
+      </label>
+      <button type="submit" name="submit" value="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
