@@ -10,4 +10,5 @@
   width: 500px;
   height: calc(100% + 20px);
   border: 1px solid #1a1a1a;
+  overflow: scroll;
 }
