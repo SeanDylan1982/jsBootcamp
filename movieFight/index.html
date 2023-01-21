@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jsBootcamp | movieFight</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" />
+  <head>
+<body>
+  
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Movie Fight
+          <span class="icon">
+            <i class="fas fa-film" id="icon"></i>
+          </span>
+        </h1>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    
+    <div class="columns" id="columns">
+      <div class="column" id="column">
+        <div class="left-autocomplete" id="left-autocomplete"></div>
+        <div class="left-summary" id="left-summary"></div>
+      </div>
+      <div class="column" id="column">
+        <div class="right-autocomplete" id="right-autocomplete"></div>
+        <div class="right-summary" id="right-summary"></div>
+      </div>
+    </div>
+
+    <div class="column is-half notifications is-primary tutorial">
+      <h1 class="title">Search for 2 movies to compare...</h1>
+      <p class="subtitle">We'll show you which is best!</p>
+    </div>
+
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="./utils.js"></script>
+  <script src="./autocomplete.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
